@@ -1,0 +1,2 @@
+export const PAGE_SIZE = 6;
+export const TRUSTAR_LOGO = "https://media-exp1.licdn.com/dms/image/C4E0BAQGsyPwlRDjXUg/company-logo_200_200/0?e=1600300800&v=beta&t=faGsSctG-0R0Fw35600z88FBcg486xF2Dv9YGZJZoek";
