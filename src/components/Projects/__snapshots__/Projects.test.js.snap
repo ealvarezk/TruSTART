@@ -145,7 +145,7 @@ Array [
 `;
 
 exports[`Projects renderItem render Project properly 1`] = `
-<Project
+<Memo(Project)
   item={
     Object {
       "id": 32946,
