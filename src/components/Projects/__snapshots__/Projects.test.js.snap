@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects load more click should show more projects 1`] = `
+Array [
+  Object {
+    "id": 32946,
+    "lastUpdated": "2020-6-9",
+  },
+  Object {
+    "id": 94227,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 11692,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 96438,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 96439,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 94205,
+    "lastUpdated": "2020-6-2",
+  },
+  Object {
+    "id": 94183,
+    "lastUpdated": "2020-6-2",
+  },
+  Object {
+    "id": 94884,
+    "lastUpdated": "2020-6-1",
+  },
+  Object {
+    "id": 13543,
+    "lastUpdated": "2020-6-1",
+  },
+  Object {
+    "id": 94234,
+    "lastUpdated": "2020-5-29",
+  },
+  Object {
+    "id": 94233,
+    "lastUpdated": "2020-5-29",
+  },
+  Object {
+    "id": 94218,
+    "lastUpdated": "2020-5-29",
+  },
+]
+`;
+
+exports[`Projects on Delete should update dataSource 1`] = `
+Array [
+  Object {
+    "id": 94227,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 11692,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 96438,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 96439,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 94205,
+    "lastUpdated": "2020-6-2",
+  },
+  Object {
+    "id": 94183,
+    "lastUpdated": "2020-6-2",
+  },
+]
+`;
+
+exports[`Projects renderItem onLoaded should update dataSource 1`] = `
+Array [
+  Object {
+    "data": Object {
+      "test": "test",
+    },
+    "id": 32946,
+    "lastUpdated": "2020-6-9",
+  },
+  Object {
+    "id": 94227,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 11692,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 96438,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 96439,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 94205,
+    "lastUpdated": "2020-6-2",
+  },
+]
+`;
+
+exports[`Projects renderItem onSelected should update dataSource 1`] = `
+Array [
+  Object {
+    "id": 32946,
+    "lastUpdated": "2020-6-9",
+    "selected": true,
+  },
+  Object {
+    "id": 94227,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 11692,
+    "lastUpdated": "2020-6-5",
+  },
+  Object {
+    "id": 96438,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 96439,
+    "lastUpdated": "2020-6-4",
+  },
+  Object {
+    "id": 94205,
+    "lastUpdated": "2020-6-2",
+  },
+]
+`;
+
+exports[`Projects renderItem render Project properly 1`] = `
+<Project
+  item={
+    Object {
+      "id": 32946,
+      "lastUpdated": "2020-6-9",
+    }
+  }
+  key="32946"
+  onLoaded={[Function]}
+  onSelected={[Function]}
+/>
+`;
+
+exports[`Projects renders Projects properly 1`] = `
+<PageHeader
+  avatar={
+    Object {
+      "src": "https://media-exp1.licdn.com/dms/image/C4E0BAQGsyPwlRDjXUg/company-logo_200_200/0?e=1600300800&v=beta&t=faGsSctG-0R0Fw35600z88FBcg486xF2Dv9YGZJZoek",
+    }
+  }
+  extra={
+    Array [
+      <ForwardRef(InternalButton)
+        block={false}
+        ghost={false}
+        htmlType="button"
+        icon={<ForwardRef(DeleteOutlined) />}
+        loading={false}
+        onClick={[Function]}
+        shape="circle"
+        type="primary"
+      />,
+      <ForwardRef(InternalButton)
+        block={false}
+        ghost={false}
+        htmlType="button"
+        icon={<ForwardRef(DownloadOutlined) />}
+        loading={false}
+        onClick={[Function]}
+        shape="circle"
+        type="primary"
+      />,
+    ]
+  }
+  title="TruSTAR"
+>
+  <Row
+    gutter={0}
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Col
+      offset={1}
+      span={22}
+    >
+      <List
+        loadMore={
+          <ForwardRef(styled.div)>
+            <ForwardRef(InternalButton)
+              block={false}
+              ghost={false}
+              htmlType="button"
+              loading={false}
+              onClick={[Function]}
+            >
+              Load more...
+            </ForwardRef(InternalButton)>
+          </ForwardRef(styled.div)>
+        }
+        loading={true}
+        renderItem={[Function]}
+      />
+    </Col>
+  </Row>
+</PageHeader>
+`;
+
+exports[`Projects renders Projects properly when error 1`] = `
+<PageHeader
+  avatar={
+    Object {
+      "src": "https://media-exp1.licdn.com/dms/image/C4E0BAQGsyPwlRDjXUg/company-logo_200_200/0?e=1600300800&v=beta&t=faGsSctG-0R0Fw35600z88FBcg486xF2Dv9YGZJZoek",
+    }
+  }
+  extra={
+    Array [
+      <ForwardRef(InternalButton)
+        block={false}
+        ghost={false}
+        htmlType="button"
+        icon={<ForwardRef(DeleteOutlined) />}
+        loading={false}
+        onClick={[Function]}
+        shape="circle"
+        type="primary"
+      />,
+      <ForwardRef(InternalButton)
+        block={false}
+        ghost={false}
+        htmlType="button"
+        icon={<ForwardRef(DownloadOutlined) />}
+        loading={false}
+        onClick={[Function]}
+        shape="circle"
+        type="primary"
+      />,
+    ]
+  }
+  title="TruSTAR"
+>
+  <Row
+    gutter={0}
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Col
+      offset={1}
+      span={22}
+    >
+      <Alert
+        closable={true}
+        description="Big Error"
+        message="Error Retrieving Projects"
+        showIcon={true}
+        type="error"
+      />
+    </Col>
+  </Row>
+</PageHeader>
+`;
+
+exports[`Projects renders Projects properly when succeed 1`] = `
+<PageHeader
+  avatar={
+    Object {
+      "src": "https://media-exp1.licdn.com/dms/image/C4E0BAQGsyPwlRDjXUg/company-logo_200_200/0?e=1600300800&v=beta&t=faGsSctG-0R0Fw35600z88FBcg486xF2Dv9YGZJZoek",
+    }
+  }
+  extra={
+    Array [
+      <ForwardRef(InternalButton)
+        block={false}
+        ghost={false}
+        htmlType="button"
+        icon={<ForwardRef(DeleteOutlined) />}
+        loading={false}
+        onClick={[Function]}
+        shape="circle"
+        type="primary"
+      />,
+      <ForwardRef(InternalButton)
+        block={false}
+        ghost={false}
+        htmlType="button"
+        icon={<ForwardRef(DownloadOutlined) />}
+        loading={false}
+        onClick={[Function]}
+        shape="circle"
+        type="primary"
+      />,
+    ]
+  }
+  title="TruSTAR"
+>
+  <Row
+    gutter={0}
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Col
+      offset={1}
+      span={22}
+    >
+      <List
+        dataSource={
+          Array [
+            Object {
+              "id": 32946,
+              "lastUpdated": "2020-6-9",
+            },
+            Object {
+              "id": 94227,
+              "lastUpdated": "2020-6-5",
+            },
+            Object {
+              "id": 11692,
+              "lastUpdated": "2020-6-5",
+            },
+            Object {
+              "id": 96438,
+              "lastUpdated": "2020-6-4",
+            },
+            Object {
+              "id": 96439,
+              "lastUpdated": "2020-6-4",
+            },
+            Object {
+              "id": 94205,
+              "lastUpdated": "2020-6-2",
+            },
+          ]
+        }
+        loadMore={
+          <ForwardRef(styled.div)>
+            <ForwardRef(InternalButton)
+              block={false}
+              ghost={false}
+              htmlType="button"
+              loading={false}
+              onClick={[Function]}
+            >
+              Load more...
+            </ForwardRef(InternalButton)>
+          </ForwardRef(styled.div)>
+        }
+        loading={false}
+        renderItem={[Function]}
+      />
+    </Col>
+  </Row>
+</PageHeader>
+`;
